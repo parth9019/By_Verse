@@ -1,0 +1,17 @@
+# Dependencies (Inhe GitHub par nahi bhejna)
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment Variables (Security ke liye)
+**/.env
+**/.env.local
+
+# Build folders
+**/dist/
+**/build/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
