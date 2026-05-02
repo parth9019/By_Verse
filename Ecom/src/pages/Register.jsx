@@ -41,7 +41,8 @@ const Register = () => {
 
     try {
       await axios.post(
-        "/auth/register",
+        // "http://localhost:5000/api/auth/register",
+        "https://by-verse.onrender.com/api/auth/register",
         { name, email, phone, password },
         { withCredentials: true }
       );
